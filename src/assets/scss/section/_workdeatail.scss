@@ -510,6 +510,13 @@
                     width: 100%;
                     height: 50vh;
 
+                    &.aboutme {
+                        background-image: url(../../image/min.png);
+                        background-position: center;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                    }
+
                 }
 
                 .content_link {

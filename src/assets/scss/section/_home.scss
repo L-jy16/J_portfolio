@@ -249,6 +249,14 @@
                     height: 10vw;
                     margin-bottom: 1.5vh;
 
+                    .main_img {
+                        &.i3 {
+                            background-image: url(../../image/min.png);
+                            background-position: center center;
+                            background-size: contain;
+                        }
+                    }
+
                     &:last-child {
                         width: 100%;
                     }
