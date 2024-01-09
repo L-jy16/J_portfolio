@@ -92,7 +92,7 @@
                     border: 1px solid var(--white);
                     padding: 5px 10px;
                     margin-bottom: 5px;
-                    font-family: var(--mainKo-font);
+                    font-family: var(--mainSub-font3);
                     color: var(--white);
                     font-size: 1.1vw;
 
@@ -132,9 +132,11 @@
         border: 1px solid #DC5B37;
         border-radius: 5px;
         backdrop-filter: blur(5px);
-        padding: 6px 10px;
-        font-family: var(--mainKo-font);
+        padding: 0.5vw 1vw;
+        font-family: var(--mainSub-font2);
         margin-bottom: 1vw;
+        font-weight: 400;
+        line-height: 1.5;
 
         span {}
 
@@ -144,6 +146,7 @@
 
             span {
                 margin-right: 2px;
+                display: block;
             }
 
             em {

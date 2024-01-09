@@ -197,7 +197,8 @@
 
                 .email,
                 .git {
-                    width: 40%;
+                    width: 30%;
+                    backdrop-filter: blur(5px);
 
                     span {
                         font-size: 2vw;
@@ -226,6 +227,7 @@
                 margin-top: -4vw;
 
                 span {
+                    backdrop-filter: blur(5px);
                     width: 40%;
                     display: inline-block;
                     text-align: left;
@@ -284,7 +286,7 @@
                 .skill {
                     width: 40%;
                     height: 75%;
-                    margin-left: 10%;
+                    margin-left: 16%;
 
                     ul {
                         display: flex;

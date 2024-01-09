@@ -269,7 +269,7 @@ const Home2 = () => {
                     ref={plane12} src={img12}
                     alt="image12"
                     className='i12'
-                    onClick={() => moveHandle("/addplus", "i12")}
+                    onClick={() => moveHandle("/portfolio", "i12")}
                 />
 
 

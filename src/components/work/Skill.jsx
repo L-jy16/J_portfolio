@@ -83,7 +83,7 @@ const Skill = () => {
             {/* work_footer */}
 
             {/* comment */}
-            <RepleAreas />
+            <RepleAreas position={"right"} />
         </div>
     )
 }
