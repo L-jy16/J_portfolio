@@ -1,8 +1,9 @@
 import React from 'react'
 
-const RepleWrite = () => {
+const RepleWrite = ({ position }) => {
+    console.log(position)
     return (
-        <div className='comment_wrap left'>
+        <div className={`comment_wrap ${position}`}>
             <div className="comment ">
                 <span>comment</span>
             </div>

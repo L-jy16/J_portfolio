@@ -2,11 +2,11 @@ import React from 'react'
 import RepleList from './RepleList'
 import RepleWrite from './RepleWrite'
 
-const RepleAreas = () => {
+const RepleAreas = ({ position }) => {
   return (
     <>
       <RepleList />
-      <RepleWrite />
+      <RepleWrite position={position} />
     </>
   )
 }

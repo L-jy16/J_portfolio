@@ -60,7 +60,7 @@ const Slide = () => {
             {/* work_footer */}
 
             {/* comment */}
-            <RepleAreas />
+            <RepleAreas position={"left"} />
         </div>
     )
 }

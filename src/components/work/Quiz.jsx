@@ -33,8 +33,8 @@ const Quiz = () => {
             </div>
             {/* work__title */}
 
-            <div className="work_center top_r">
-                <span className='center_text split'>add-plus <p>site</p></span>
+            <div className="work_center right">
+                <span className='center_text'>add-plus <p>site</p></span>
                 <div className="work_img_wrap quiz">
                 </div>
                 <div className="desc">
@@ -61,7 +61,7 @@ const Quiz = () => {
             {/* work_footer */}
 
             {/* comment */}
-            <RepleAreas />
+            <RepleAreas position={"right"} />
         </div>
     )
 }

@@ -61,7 +61,7 @@ const Mouse = () => {
             {/* work_footer */}
 
             {/* comment */}
-            <RepleAreas />
+            <RepleAreas position={"left"} />
         </div>
     )
 }
