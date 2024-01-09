@@ -67,6 +67,11 @@ const Search = () => {
 
             {/* comment */}
             <RepleAreas position={"right"} />
+
+            {/* mobile
+            <div className="reple_btn">
+                <button>comment</button>
+            </div> */}
         </div>
     )
 }

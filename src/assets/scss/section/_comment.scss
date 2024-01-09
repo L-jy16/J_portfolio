@@ -132,6 +132,7 @@
     &.right {
         top: 0;
         right: 0;
+        text-align: right;
     }
 
     .reple {
@@ -141,10 +142,11 @@
         border-radius: 5px;
         backdrop-filter: blur(5px);
         padding: 0.5vw 1vw;
-        font-family: var(--mainSub-font2);
+        font-family: var(--mainKo-font);
         margin-bottom: 1vw;
         font-weight: 400;
         line-height: 1.5;
+        word-break: keep-all;
 
         span {}
 
@@ -166,6 +168,7 @@
                 background-color: #00000000;
                 color: var(--font-color);
                 cursor: pointer;
+                font-size: 0.9vw;
 
                 &:hover {
                     color: var(--white);
@@ -177,9 +180,133 @@
                 background-color: #00000000;
                 color: var(--font-color);
                 cursor: pointer;
+                font-size: 0.9vw;
 
                 &:hover {
                     color: var(--white);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .comment_wrap {
+        &.left {
+            left: 23%;
+            top: 40%;
+        }
+
+        &.right {
+            right: 23%;
+            top: 40%;
+        }
+
+        .comment {
+            width: 28vw;
+            height: 28vw;
+            font-size: 2vw;
+        }
+
+        .comment_back {
+            width: 28vw;
+            height: 28vw;
+            form {
+
+                fieldset {
+
+                    input {}
+
+                    button {}
+                }
+            }
+        }
+    }
+
+    .reple_list {
+        width: 25%;
+        .reple {
+            span {}
+
+            .user_info {
+                font-size: 1vw;
+                span {}
+
+                em {}
+
+                .modi {
+                    font-size: 1vw;
+                }
+
+                .del {
+                    font-size: 1vw;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .comment_wrap {
+        &.left {
+            left: auto;
+            top: 33%;
+            right: 5%;
+        }
+
+        &.right {
+            right: auto;
+            top: 33%;
+            left: 5%;
+        }
+
+        .comment {
+            width: 40vw;
+            height: 40vw;
+            font-size: 2vw;
+        }
+
+        .comment_back {
+            width: 40vw;
+            height: 40vw;
+            form {
+
+                fieldset {
+
+                    input {
+                        width: 70%;
+                        padding: 1vw;
+                        font-size: 2vw;
+                        font-size: 2vw;
+                    }
+
+                    button {
+                        font-size: 2vw;
+                        padding: 1vw 2vw;
+                    }
+                }
+            }
+        }
+    }
+
+    .reple_list {
+        width: 30%;
+        .reple {
+            font-size: 1.8vw;
+            span {}
+
+            .user_info {
+                font-size: 1.5vw;
+                span {}
+
+                em {}
+
+                .modi {
+                    font-size: 1.5vw;
+                }
+
+                .del {
+                    font-size: 1.5vw;
                 }
             }
         }

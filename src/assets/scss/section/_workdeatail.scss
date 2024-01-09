@@ -470,144 +470,268 @@
     }
 }
 
+// @media (max-width: 800px) {
+//     .work_Detail {
+//         align-items: center;
+//         align-content: center;
+//         justify-content: center;
+
+//         .work__title {
+//             top: 3vh;
+
+//             h2 {
+//                 font-size: 5vw;
+//             }
+
+//             span {
+//                 font-size: 2.7vw;
+//             }
+//         }
+
+//         .work_center {
+//             width: 100%;
+//             margin-top: 5vh;
+
+//             &.left,
+//             &.right {
+//                 width: 100%;
+//                 display: flex;
+//                 flex-wrap: wrap;
+//                 align-content: space-around;
+//                 justify-content: center;
+//                 align-items: center;
+//                 text-align: center;
+
+//                 .center_text {
+//                     margin: 0;
+//                     text-align: center;
+//                 }
+
+//                 .work_img_wrap {
+//                     width: 100%;
+//                     height: 50vh;
+
+//                     &.aboutme {
+//                         background-image: url(../../image/min.png);
+//                         background-position: center;
+//                         background-size: contain;
+//                         background-repeat: no-repeat;
+//                     }
+
+//                 }
+
+//                 .content_link {
+//                     width: 100%;
+//                     text-align: center;
+//                     margin: 0;
+//                     padding: 10px;
+
+//                     .email,
+//                     .git {
+//                         width: 100%;
+
+//                         span {
+//                             font-size: 5vw;
+//                         }
+
+//                         a {
+//                             font-size: 5vw;
+//                         }
+//                     }
+//                 }
+
+//                 .desc {
+//                     width: 100%;
+//                     padding: 10px;
+//                     font-size: 2.8vw;
+//                     margin-top: 0vw;
+//                     margin: 0;
+
+//                     span {
+//                         width: 100%;
+//                         margin: 0;
+//                         font-size: 3vw;
+//                     }
+
+
+
+//                 }
+//             }
+
+//             &.skill {
+//                 width: 100%;
+//                 display: flex;
+//                 flex-wrap: wrap;
+//                 align-content: center;
+//                 justify-content: center;
+//                 align-items: center;
+//                 text-align: center;
+
+//                 .center_text {
+//                     text-align: center;
+//                     font-size: 11vw;
+//                     margin: 0;
+//                 }
+
+//                 .work_img_wrap {
+//                     width: 100%;
+//                     height: 50vh;
+//                     display: flex;
+//                     flex-wrap: nowrap;
+//                     flex-direction: column;
+//                     align-content: center;
+//                     overflow: hidden;
+//                 }
+
+//                 .skill {
+//                     width: 100%;
+//                     margin-left: 0;
+//                     margin-top: 0;
+//                     height: 30%;
+
+//                     ul {
+//                         margin-top: 2vh;
+//                         margin-right: 5%;
+//                         width: 100%;
+
+//                         li {
+//                             width: 23%;
+
+//                             span {
+//                                 font-size: 3.5vw;
+//                             }
+//                         }
+//                     }
+//                 }
+
+//             }
+
+
+//         }
+
+//         .work_footer {
+
+//             .work_back_button {
+//                 span {
+//                     font-size: 4vw;
+//                 }
+//             }
+
+//             .work_btn {
+//                 a {
+//                     font-size: 4vw;
+//                 }
+//             }
+//         }
+//     }
+// }
+
 @media (max-width: 800px) {
     .work_Detail {
-        align-items: center;
-        align-content: center;
-        justify-content: center;
+        .mouse__cursor {}
 
         .work__title {
-            top: 5vh;
-
             h2 {
-                font-size: 5vw;
+                font-size: 3vw;
             }
 
             span {
-                font-size: 2.7vw;
+                font-size: 1.5vw;
             }
         }
 
         .work_center {
-            width: 100%;
 
-            &.left,
-            &.right {
-                width: 100%;
-                display: flex;
-                flex-wrap: wrap;
-                align-content: space-around;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-
+            &.left {
                 .center_text {
-                    margin: 0;
-                    text-align: center;
+                    font-size: 11vw;
+                    margin-right: 15vw;
+                    margin-bottom: -6vw;
                 }
 
-                .work_img_wrap {
-                    width: 100%;
-                    height: 50vh;
 
-                    &.aboutme {
-                        background-image: url(../../image/min.png);
-                        background-position: center;
-                        background-size: contain;
-                        background-repeat: no-repeat;
+                .work_img_wrap {
+                    height: 45vh;
+                }
+
+                .desc {
+                    width: 60%;
+                    margin-right: 5vw;
+                    margin-top: 5vw;
+
+                    span {
+                        font-size: 2.5vw;
                     }
 
                 }
+            }
+
+            &.right {
+
+                .center_text {
+                    font-size: 11vw;
+                    width: 90vw;
+                    margin-bottom: -6vw;
+                     p {}
+                }
+
+
+                .work_img_wrap {
+                    height: 45vh;
+                }
 
                 .content_link {
-                    width: 100%;
-                    text-align: center;
-                    margin: 0;
-                    padding: 10px;
-
+                    margin-top: 5vw;
                     .email,
                     .git {
-                        width: 100%;
+                        width: 60%;
 
                         span {
-                            font-size: 5vw;
+                            font-size: 3vw;
                         }
 
                         a {
-                            font-size: 5vw;
+                            font-size: 3vw;
                         }
                     }
                 }
 
                 .desc {
-                    width: 100%;
-                    padding: 10px;
-                    font-size: 2.8vw;
-                    margin-top: 0vw;
-                    margin: 0;
-
+                    margin-left: 5vw;
+                    margin-top: 5vw;
                     span {
-                        width: 100%;
-                        margin: 0;
-                        font-size: 4vw;
+                        width: 60%;
+                        font-size: 2.5vw;
                     }
-
-
-
                 }
             }
 
             &.skill {
-                width: 100%;
-                display: flex;
-                flex-wrap: wrap;
-                align-content: center;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-
                 .center_text {
-                    text-align: center;
                     font-size: 11vw;
-                    margin: 0;
+                    left: 20%;
                 }
 
                 .work_img_wrap {
-                    width: 100%;
-                    height: 50vh;
-                    display: flex;
-                    flex-wrap: nowrap;
-                    flex-direction: column;
-                    align-content: center;
-                    overflow: hidden;
+                    height: 60vh;
                 }
 
                 .skill {
                     width: 100%;
-                    margin-left: 0;
-                    margin-top: 0;
-                    height: 30%;
+                    margin-top: -35vw;
 
                     ul {
-                        margin-top: 2vh;
-                        margin-right: 5%;
-                        width: 100%;
-
                         li {
-                            width: 23%;
+                            width: 49%;
 
                             span {
-                                font-size: 3.5vw;
+                                font-size: 3vw;
                             }
                         }
                     }
                 }
-
             }
-
-
         }
-
         .work_footer {
 
             .work_back_button {

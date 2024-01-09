@@ -16,7 +16,7 @@ import img11 from "../assets/image/i11-min.png"
 import img12 from "../assets/image/i12-min.png"
 
 
-const Home2 = () => {
+const Test = () => {
     const plane1 = useRef(null);
     const plane2 = useRef(null);
     const plane3 = useRef(null);
@@ -220,119 +220,83 @@ const Home2 = () => {
     return (
         <div id='active__wrap' onMouseMove={(e) => manageMouseMove(e)} onMouseDown={() => clickHandle()} onMouseUp={() => clickHandle()} >
 
-            <div className="imgs">
-                <div className="img i01"
+<div className="imgs">
+                <img
                     ref={plane1} src={img01}
                     alt="image01"
+                    className='i01'
                     onClick={() => moveHandle("/search", "i01")}
-                >
-                <span className="work_name">
-                    search
-                </span>
-                </div>
-                <div className="img i06"
+                />
+                <img
                     ref={plane6} src={img06}
                     alt="image06"
+                    className='i06'
                     onClick={() => moveHandle("/youtube", "i06")}
-                >
-                <span className="work_name">
-                    youtube
-                </span>
-                </div>
-                <div className="img i08"                
+                />
+                <img
                     ref={plane8} src={img08}
                     alt="image08"
+                    className='i08'
                     onClick={() => moveHandle("/myuduck", "i08")}
-                >
-                <span className="work_name">
-                    myuduck
-                </span>
-                </div>
-                <div className="img i10"
+                />
+                <img
                     ref={plane10} src={img10}
                     alt="image10"
+                    className='i10'
                     onClick={() => moveHandle("/movie", "i10")}
-                >
-                <span className="work_name">
-                    movie
-                </span>
-                </div>
+                />
 
 
-                <div className="img i02"
+                <img
                     ref={plane2} src={img02}
                     alt="image02"
+                    className='i02'
                     onClick={() => moveHandle("/skill", "i02")}
-                >
-                <span className="work_name">
-                    skill
-                </span>
-                </div>
-                <div className="img i04"
+                />
+                <img
                     ref={plane4} src={img04}
                     alt="image04"
+                    className='i04'
                     onClick={() => moveHandle("/content", "i04")}
-                >
-                <span className="work_name">
-                    content
-                </span>
-                </div>
-                <div className="img i07"
+                />
+                <img
                     ref={plane7} src={img07}
                     alt="image07"
+                    className='i07'
                     onClick={() => moveHandle("/gsap", "i07")}
-                >
-                <span className="work_name">
-                    gsap
-                </span>
-                </div>
-                <div className="img i12"
+                />
+                <img
                     ref={plane12} src={img12}
                     alt="image12"
+                    className='i12'
                     onClick={() => moveHandle("/portfolio", "i12")}
-                >
-                <span className="work_name">
-                    portfolio
-                </span>
-                </div>
+                />
 
 
-                <div className="img i03"
+                <img
                     ref={plane3} src={img03}
                     alt="image03"
+                    className='i03'
                     onClick={() => moveHandle("/aboutme", "i03")}
-                >
-                <span className="work_name">
-                    aboutme
-                </span>
-                </div>
-                <div className="img i05"
+                />
+                <img
                     ref={plane5} src={img05}
                     alt="image05"
+                    className='i05'
                     onClick={() => moveHandle("/blog", "i05")}
-                >
-                <span className="work_name">
-                    blog
-                </span>
-                </div>
-                <div className="img i11"
+                />
+                <img
                     ref={plane11} src={img11}
                     alt="image11"
+                    className='i11'
                     onClick={() => moveHandle("/slide", "i11")}
-                >
-                <span className="work_name">
-                    slide
-                </span>
-                </div>
-                <div className="img i09"
+                />
+                <img
                     ref={plane9} src={img09}
                     alt="image9"
+                    className='i09'
                     onClick={() => moveHandle("/mouse", "i09")}
-                >
-                <span className="work_name">
-                    mouse
-                </span>
-                </div>
+                />
 
                 <div id="back_button" onClick={() => BackHandle()}>
                     <span className="BackButton">back</span>
@@ -350,4 +314,4 @@ const Home2 = () => {
     )
 }
 
-export default Home2;
+export default Test;
