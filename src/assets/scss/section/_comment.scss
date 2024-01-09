@@ -121,10 +121,18 @@
 .reple_list {
     position: fixed;
     z-index: 1000;
-    top: 0;
-    left: 0;
     padding: 1vw;
     width: 18%;
+
+    &.left {
+        top: 0;
+        left: 0;
+    }
+
+    &.right {
+        top: 0;
+        right: 0;
+    }
 
     .reple {
         display: inline-block;

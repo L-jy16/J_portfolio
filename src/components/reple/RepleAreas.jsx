@@ -5,7 +5,7 @@ import RepleWrite from './RepleWrite'
 const RepleAreas = ({ position }) => {
   return (
     <>
-      <RepleList />
+      <RepleList position={position} />
       <RepleWrite position={position} />
     </>
   )

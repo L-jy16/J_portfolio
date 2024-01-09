@@ -79,12 +79,12 @@
             cursor: pointer;
 
             // &.activedark {
-                
+
             //     filter: grayscale(0%)
             // }
 
             // &.gray {
-            
+
             //     filter: grayscale(100%)
             // }
 
@@ -239,10 +239,6 @@
         }
 
         .center {
-            position: absolute;
-            top: 16vh;
-            height: auto;
-
             .center_text {
                 p {}
             }
@@ -257,104 +253,103 @@
                 font-size: 3vw;
             }
 
-            // img {
-            //     &.i01 {
-            //         left: 5%;
-            //         top: 25%;
-            //         width: 43%;
-            //         height: 6vh;
-            //         filter: brightness(1);
-            //     }
+            img {
+                &.i01 {
+                    width: 25vw;
+                    height: 25vh;
+                    left: 0%;
+                    top: 15%;
+                    filter: brightness(0.7);
+                }
 
-            //     &.i02 {
-            //         left: 50%;
-            //         top: 25%;
-            //         width: 43%;
-            //         height: 6vh;
-            //         filter: brightness(1);
-            //     }
+                &.i02 {
+                    width: 28vw;
+                    height: 20vh;
+                    left: 13%;
+                    top: 0%;
+                    filter: brightness(0.7);
+                }
 
-            //     &.i03 {
-            //         left: 5%;
-            //         top: 32%;
-            //         width: 43%;
-            //         height: 6vh;
-            //         filter: brightness(1);
-            //     }
+                &.i03 {
+                    width: 30vw;
+                    height: 28vh;
+                    left: 35%;
+                    top: 13%;
+                    filter: brightness(0.7);
+                }
 
-            //     &.i04 {
-            //         left: 50%;
-            //         top: 32%;
-            //         width: 43%;
-            //         height: 6vh;
-            //         filter: brightness(1);
-            //     }
+                &.i04 {
+                    width: 28vw;
+                    height: 24vh;
+                    left: 55%;
+                    top: 22%;
+                    filter: brightness(0.7);
+                }
 
-            //     &.i05 {
-            //         left: 5%;
-            //         top: 39%;
-            //         width: 88%;
-            //         height: 6vh;
-            //         filter: brightness(1);
-            //     }
+                &.i05 {
+                    width: 27vw;
+                    height: 20vh;
+                    left: 70%;
+                    top: 5%;
+                    filter: brightness(0.7);
+                }
 
-            //     &.i06 {
-            //         left: 5%;
-            //         top: 46%;
-            //         width: 88%;
-            //         height: 6vh;
-            //         filter: brightness(1);
-            //     }
+                &.i06 {
+                    width: 28vw;
+                    height: 30vh;
+                    left: 2%;
+                    top: 60%;
+                    filter: brightness(0.7);
+                }
 
-            //     &.i07 {
-            //         left: 5%;
-            //         top: 53%;
-            //         width: 43%;
-            //         height: 6vh;
-            //         filter: brightness(1);
-            //     }
+                &.i07 {
+                    width: 25vw;
+                    height: 25vh;
+                    left: 18%;
+                    top: 50%;
+                    filter: brightness(0.7);
+                }
 
-            //     &.i08 {
-            //         left: 50%;
-            //         top: 53%;
-            //         width: 43%;
-            //         height: 6vh;
-            //         filter: brightness(1);
-            //     }
+                &.i08 {
+                    width: 27vw;
+                    height: 25vh;
+                    left: 35%;
+                    top: 70%;
+                    filter: brightness(0.7);
+                }
 
-            //     &.i09 {
-            //         left: 5%;
-            //         top: 60%;
-            //         width: 43%;
-            //         height: 6vh;
-            //         filter: brightness(1);
-            //     }
+                &.i09 {
+                    width: 13vw;
+                    height: 25vh;
+                    left: 87%;
+                    top: 10%;
+                    filter: brightness(0.7);
+                }
 
-            //     &.i10 {
-            //         left: 50%;
-            //         top: 60%;
-            //         width: 43%;
-            //         height: 6vh;
-            //         filter: brightness(1);
-            //     }
+                &.i10 {
+                    width: 19vw;
+                    height: 25vh;
+                    left: 50%;
+                    top: 60%;
+                    filter: brightness(0.7);
+                }
 
-            //     &.i11 {
-            //         left: 5%;
-            //         top: 67%;
-            //         width: 43%;
-            //         height: 6vh;
-            //         filter: brightness(1);
-            //     }
+                &.i11 {
+                    width: 20vw;
+                    height: 27vh;
+                    left: 67%;
+                    top: 73%;
+                    filter: brightness(0.7);
+                }
 
-            //     &.i12 {
-            //         left: 50%;
-            //         top: 67%;
-            //         width: 43%;
-            //         height: 6vh;
-            //         filter: brightness(1);
-            //     }
-
-            // }
+                &.i12 {
+                    width: 28vw;
+                    height: 26vh;
+                    left: 85%;
+                    top: 50%;
+                    filter: brightness(0.7);
+                }
+            }
 
         }
 

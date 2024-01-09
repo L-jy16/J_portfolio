@@ -1,8 +1,8 @@
 import React from 'react'
 
-const RepleList = () => {
+const RepleList = ({ position }) => {
     return (
-        <div className="reple_list">
+        <div className={`reple_list ${position}`}>
             <div className="reple">
                 <p className='reple_info'>댓글 내용 댓글 내용 댓글 내용</p>
                 <div className='user_info'>
