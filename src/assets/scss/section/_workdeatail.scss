@@ -19,6 +19,7 @@
         z-index: 10000;
         background: #1913105d;
         backdrop-filter: blur(10px);
+        cursor: pointer;
 
         h2 {
             text-transform: uppercase;
@@ -211,7 +212,6 @@
                             color: var(--white200);
                             text-decoration: underline;
                             text-underline-position: under;
-                            font-size: 2.1vw;
                         }
                     }
                 }
